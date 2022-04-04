@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+
+body{
+    margin: 0;
+    background: #ddd
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 50%;
+}
+#profile-pic{
+    border-radius: 50%;
+    width: 10px;
+    height:10px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+@media only screen and (max-width:600px){   
+#profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+    }
+}
