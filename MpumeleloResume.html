@@ -1,120 +1,333 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-    crossorigin="anonymous">
-    <!-- My own stylesheet -->
-    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Mpumi Resume</title>
-  </head>
-  <body>
-    <header>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- My own stylesheet -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Font awesome kit -->
+  <script src="https://kit.fontawesome.com/4aa55b1e17.js" crossorigin="anonymous"></script>
+
+  <title>Mpumi Resume</title>
+</head>
+
+<body>
+  <header>
     <!-- Nav Bar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #FF9899">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav navbar-centre mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#education">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#experience">Experience</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" 
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Social Media</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="https://github.com/M-Zondo" target = "_blank">    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #FF9899">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-centre mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact">Contact Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Social Media</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://github.com/M-Zondo" target="_blank">
                     Github</a></li>
-                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/mpumelelo-zondo-643785138/" target = "_blank">
-                      Linkedin</a></li>
-                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/mpumelelo-zondo-643785138/" target = "_blank">
-                      Facebook</a></li>
-                </ul>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/mpumelelo-zondo-643785138/"
+                    target="_blank">
+                    Linkedin</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/mpumelelo-zondo-643785138/"
+                    target="_blank">
+                    Facebook</a></li>
+              </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Background image -->
+  <div class="row ">
+    <div class="jumbotron jumbotron-fluid">
+      <div id="backround">
+        <h5 class="pt-5 mt-5 ps-3"> Welcome to my page!</h5>
+        <h3 class="ps-3"> I'm Mpumelelo Zondo</h3>
+      </div>
+    </div>
+  </div>
+  <!-- About me section -->
+  <section class="row">
+    <div class="col text-center" style="background-color:#FFCBA5">
+      <h3 class="pt-5 mt-5">
+        About Me
+      </h3>
+      <p id="about">
+        I am currently enrolled in my Master's at the University of Cape Town (UCT) specializing in Epidemiology
+        and Biostatistics.<br>
+        Outside of UCT I am also enrolled at CodeSpace Academy specializing in Software Development.<br>
+        I am a determined and well rounded individual who is always eager to learn and grow.<br>
+        Outside of my studies I am Wine Enthusiast as well an Adrenaline Junkie.<br> I am extremely sociable
+        and enjoy engaging with new people and learning from those around me.
+      </p>
+
+    </div>
+  </section>
+  <!-- Education Section-->
+  <!-- Cards have been used to display each qualification -->
+  <section class="container-fluid" style="background-color:white">
+    <div class="row">
+      <h3 id="education">Education</h3>
+      <div class="col-md-3 col-xs-4">
+        <div class="card">
+          <img src="/images/uctlogo.jpg" class="card-img-top" alt="uctlogo">
+          <div class="card-body">
+            <h5 class="card-title">MSc Epidemiology and Biostatistics, University of Cape Town</h5>
+            <h6 class="card-subtitle mb-2 text-muted">February 2022 - Current </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-4">
+        <div class="card">
+          <img src="/images/uctlogo.jpg" class="card-img-top" alt="uctlogo">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Medical Science Honors in Bioinformatics, University of Cape Town</h5>
+            <h6 class="card-subtitle mb-2 text-muted">January 2020 - December 2020 </h6>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">First Class Honors - 76.5%</li>
+              <li class="list-group-item">Modules Completed:</li>
+              <li class="list-group-item">Introduction to Bioinformatics</li>
+              <li class="list-group-item">Introduction into R and Study Design</li>
+              <li class="list-group-item">High Throughput Biology</li>
+              <li class="list-group-item">Population Genetics and Pharmacodynamics</li>
             </ul>
           </div>
         </div>
-    </nav>
-    </header>
-    <!-- Background Image -->
-    <div class = "row ">
-    <div class="jumbotron jumbotron-fluid pt-5 mt-5" id="backround"></div>
+      </div>
+      <div class="col-md-3 col-xs-4">
+        <div class="card">
+          <img src="/images/uctlogo.jpg" class="card-img-top" alt="uctlogo">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Science in Biochemistry and Human Physiology and Anatomy, University of
+              Cape Town</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Feb 2016 - Nov 2019 </h6>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-4">
+        <div class="card">
+          <img src="/images/brescia.png" class="card-img-top" alt="brescialogo">
+          <div class="card-body">
+            <h5 class="card-title">National Senior Certificate, Brescia House Ursuline Convent</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Jan 2003 - Nov 2015</h6>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">2 A's (80 % - 100 %)</li>
+              <li class="list-group-item">4 B's (70% - 79%)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- About me section -->
-    <div class="col-12 text-center" style="background-color:#FFCBA5">
-        <h3>
-            About Me
-        </h3>
-        <p id="about">
-            I am currently enrolled in my Master's at the University of Cape Town (UCT) specializing in Epidemiology 
-            and Biostatistics.<br>
-             Outside of UCT I am also enrolled at CodeSpace Academy specializing in Software Development.<br>  
-             I am a determined and well rounded individual who is always eager to learn and grow.<br>
-            Outside of my studies I am Wine Enthusiast as well an Adrenaline Junkie.<br> I am extremely sociable 
-             and enjoy engaging with new people and learning from those around me.
+  </section>
+
+  <!-- A carousel of my skills -->
+  <!-- Font awesome icons were used -->
+  <section class="container" style="background-color:white;">
+    <div class="row justify-content-center">
+      <h3 id="skills" class="text-center">Skills</h3>
+      <div class="col-5">
+        <!-- Setting carousel theme -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide carosel-fade d-block" data-bs-ride="carousel">
+          <!-- Carousel buttons-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+          </div>
+          <!-- 4 carousel items with each skill @ mid size captions disappear-->
+          <div class="carousel-inner d-block">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <i class="fa-brands fa-r-project d-block w-100 fa-10x logo"></i>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>R Programming</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <i class="fa-solid fa-flask fa-10x logo"></i>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Research and Experiments</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <i class="fa-brands fa-python fa-10x logo "></i>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Python Programming</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <i class="fa-brands fa-windows fa-10x logo"></i>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Microsoft Office</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <i class="fa-solid fa-handshake fa-10x logo"></i>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Customer Service / Sales Expertise</h5>
+              </div>
+            </div>
+            <!-- Carousel buttons-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- Work experience-->
+  <section class="row" style="background-color: #FFCBA5">
+    <div class=" col-md-12 pt-5 mt-5">
+      <h3 class="text-center" id="experience">Work Experience</h3>
+      <div class="ps-3">
+        <h5>Market Manager</h5>
+        <h6>Feb 2019 - Nov 2019</h6>
+        <p>Running the Hoghouse stall at the Oranjezicht City Farm Market.<br> Duties included staffing,
+          handling customer service, selling of products, <br>daily cash up and reporting.
         </p>
+      </div>
     </div>
-    <!-- Education Section-->
-    <section class="container-fluid" style="background-color:white">
-        <h5 id="education">Education</h5>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/uctlogo.jpg" class="card-img-top" alt="uctlogo">
-            <div class="card-body">
-            <h5 class="card-title">MSc Epidemiology and Biostatistics, University of Cape Town</h5>
-            <h6 class="card-subtitle mb-2 text-muted">February 2020 - Current </h6>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="/images/uctlogo.jpg" class="card-img-top" alt="uctlogo">
-            <div class="card-body">
-            <h5 class="card-title">MSc Epidemiology and Biostatistics, University of Cape Town</h5>
-            <h6 class="card-subtitle mb-2 text-muted">February 2020 - Current </h6>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="/images/uctlogo.jpg" class="card-img-top" alt="uctlogo">
-            <div class="card-body">
-            <h5 class="card-title">MSc Epidemiology and Biostatistics, University of Cape Town</h5>
-            <h6 class="card-subtitle mb-2 text-muted">February 2020 - Current </h6>
-            </div>
-          </div>
+  </section>
 
-    </section>
-    <!-- A carousel of my skills -->
-    <section>
+  <!-- Contact me form-->
+  <section id="contact">
+    <h3 class="text-center">Contact Me</h3>
+    <!-- Wrapper container -->
+    <div class="container py-4">
 
-    </section>
-   
+      <!-- Bootstrap 5 starter form -->
+      <form id="contactForm">
 
-            
-    
+        <!-- Name input -->
+        <div class="mb-3">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+          <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+        </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Email address input -->
+        <div class="mb-3">
+          <label class="form-label" for="emailAddress">Email Address</label>
+          <input class="form-control" id="emailAddress" type="email" placeholder="Email Address"
+            data-sb-validations="required, email" />
+          <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+          <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+        </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- Message input -->
+        <div class="mb-3">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"
+            data-sb-validations="required"></textarea>
+          <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+        </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+        <!-- Form submissions success message -->
+        <div class="d-none" id="submitSuccessMessage">
+          <div class="text-center mb-3">Form submission successful!</div>
+        </div>
+
+        <!-- Form submissions error message -->
+        <div class="d-none" id="submitErrorMessage">
+          <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+
+        <!-- Form submit button -->
+        <div class="d-grid">
+          <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </section>
+
+<!-- Extra contact information-->
+<!-- Font awesome icons used-->
+  <footer>
+    <div class="row" style=" height:5rem;background-color:#FF9899">
+      <div class="col-md-6 col-xs-4">
+        <p class="mt-3 pt-3 ps-3" style="height:4rem;background-color:#FF9899">
+          <i class="fa-solid fa-map-pin"></i>
+          10 Brook Street,
+          Claremont,
+          Cape Town
+          7708
+        </p>
+      </div>
+      <div class="col-md-6 col-xs-4">
+        <p class="mt-3 pt-3" style="height:4rem;background-color:#FF9899">
+          <i class="fa-solid fa-phone"></i>
+          +27 63 669 2336
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
