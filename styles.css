@@ -1,14 +1,15 @@
 * {box-sizing: border-box;}
 
 #backround {
-    background-image: url(../images/cover-med.jpg); 
+    background-image: url(../images/cover-med2.jpg); 
     background-repeat:no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: relative;
     background-attachment: fixed;
     background-color: #FFCBC4;
-    width: 100%;
-    height: 800px;
+    max-width: 100%;
+    height: 50rem;
+    
 }
 .pt-5 {
     padding-top: 3rem!important;
@@ -20,11 +21,43 @@
 
 p{
     width: 100%;
-    height: 400px;
+    height: 20rem;
     background-color: #FFCBA5;
 }
 
 #education {
     text-align: center;
 }
-
+.carousel-item {
+    height: 18em;
+    
+}
+.ps-3{
+    padding-left: 2rem;
+}
+#location{
+    border-radius: 50%;
+    height: 5vw;
+}
+#cellphone{
+    border-radius: 50%;
+    height: 5vw;
+}
+i{
+    padding-left: 4rem;
+}
+@media only screen and (max-width:768px){
+    .logo{
+      
+       font-size:3em;
+    }
+    .carousel-item{
+        height:7rem;
+    }
+    footer{
+        height:100%;
+    }
+    .about{
+        font-size:smaller;
+    }
+}
